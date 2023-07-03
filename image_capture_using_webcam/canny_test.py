@@ -3,7 +3,7 @@ import numpy as np
 cap = cv2.VideoCapture(0)
  # 0 here is for webcam used by the computer#
 
-#this is a continous loops it reads continuously till ESC key is pressed#
+#this  loops continuously till ESC key is pressed#
 while(1):
     
     ret, frame = cap.read()
